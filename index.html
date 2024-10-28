@@ -1,1 +1,201 @@
-<h1>Hello world</h1>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jin Kai's Portfolio</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+
+    <!-- Set up your page structure here -->
+    <!-- Start of header -->
+    <!-- <a name="top"></a>
+    <nav class="navbar navbar-default navbar-expand-sm fixed-top bg-primary-subtle p-0">
+        <ul class="m-0 p-2 ms-auto">
+            <li><a href="#top">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav> -->
+    <!-- End of header -->
+
+
+
+    <!-- Start of Main Section -->
+    <section id="mainsection" class="mt-5">
+        <!-- Left area of main section -->
+        <div class="left-div d-flex flex-column">
+            <div class="profilecontainer">
+                <img src="img/alex.png" alt="Jin Kai" class="rounded-image">
+                <p>
+                    <span class="fw-bold">Jin Kai</span><span>Full-Stack Developer</span>
+                </p>
+            </div>
+            <ul class="social d-flex gap-4">
+                <li class="socials-list"><a href="https://linkedin.com/in/jinkaiyong/"><i class="icons bi bi-linkedin"></i> </a>
+                </li>
+                <li class="socials-list"><a href="https://github.com/yongjinkai"><i class="icons bi bi-github"></i> </a>
+                </li>
+                <li class="socials-list"><a href="mailto:yongjinkai@outlook.sg"><i
+                            class="icons bi bi-envelope-arrow-up-fill"></i> </a>
+                </li>
+
+            </ul>
+            <div class="profiledetails">
+                <p class="subheader fw-bold m-0 py-1"> Codes in:</p>
+                <ul class="list-group list-unstyled ps-4 mt-1 mb-3">
+                    <li>HTML . CSS . JavaScript</li>
+                    <li>Java</li>
+                    <li>SQL</li>
+                    <li>Python</li>
+                </ul>
+                <p class="subheader fw-bold m-0 py-1">Works with:</p>
+                <ul class="list-group list-unstyled ps-4 mt-1 mb-3">
+                    <li>React</li>
+                    <li>Springboot</li>
+                    <li>Junit + Mockito (Unit Tests)</li>
+                </ul>
+                <p class="subheader fw-bold m-0 py-1">Builds with:</p>
+                <ul class="list-group list-unstyled ps-4 mt-1 mb-3">
+                    <li>GitHub</li>
+                    <li>IntelliJ IDEA</li>
+                    <li>MySQL WorkBench</li>
+                    <li>VS code</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="right-div">
+            <!-- Right area of main section -->
+            <div class="text"></div>
+            <h1>Hi! <span class="typing"></span></h1>
+            <p>Aspiring full-stack developer with hands-on experience in data analysis and web development. I have
+                recently
+                completed a full-stack bootcamp, where I built and deployed a fully functional website as my
+                capstone project. I bring over 6 years in the semiconductor industry as a process engineer, and i am
+                combining my engineering background with software development to tackle real-world problems
+                and build effective solutions.</p>
+            <div class="linkcontainer">
+                <a href="#projects">View projects below.</a>
+            </div>
+        </div>
+    </section>
+    <!-- End of Main Section -->
+
+
+
+    <!-- Start of Project Section -->
+    <section id="developer" class="container page-content pt-5">
+        <h1 class="pt-3" id="projects">Projects</h1>
+
+        <div id="works" class="text-secondary pt-3">
+            <div class="row mt-3 mb-4">
+                <h2 class="py-3 text-info console-font">Classic Snake Game</h2>
+                <section class="col-12 col-md-6 col-lg-4 ">
+                    <img src="img/Snake_game_gif_V1.gif" alt="" class="w-100 mb-3">
+                </section>
+                <section class="col-12 col-md-6 col-lg-8">
+                    <h3 class="">Description:</h3>
+                    <p class="text-justify text-white">The classic snake game, written in python and displayed using
+                        Turtle Graphics. The snake's speed can be adjusted easily and it comes with a high-score
+                        feature. Easily control the snake's direction using keyboard controls. The game ends when the
+                        snake collides with a wall.</p>
+                    <h4 class="">Languages:</h4>
+                    <ul class="list-unstyled">
+                        <li class="d-inline pe-2 text-white">Python</li>
+                    </ul>
+                    <h4 class="">Skills:</h4>
+                    <ul class="list-unstyled">
+                        <li class="d-inline pe-2 text-white">Turtle Graphics</li>
+
+                        <li class="d-inline pe-2 text-white">Object Oriented Programming</li>
+                    </ul>
+                    <h4 class="mb-3">Demo Link:</h4>
+                    <a href="https://github.com/yongjinkai/SnakeGame" target="_blank" class="btn btn-dark me-1"><i
+                            class="bi bi-box-arrow-up-right"></i>&hairsp;GitHub</a>
+                </section>
+            </div>
+            <hr class="border-1 border-top border-white">
+            <div class="row mt-3 mb-4">
+                <h2 class="py-3 text-info console-font">Spotify playlist app</h2>
+                <section class="col-12 col-md-6 col-lg-4 border-right">
+                    <img src="img/spotifyapp.gif" alt="" class="w-100 mb-3">
+                </section>
+                <section class="col-12 col-md-6 col-lg-8">
+                    <h3 class="">Description:</h3>
+                    <p class="text-justify text-white">A spotify playlist app that connects with your actual spotify
+                        account through the Spotify API. You can search for any songs and easily add it into a playlist
+                        name of your choice, and it will automatically be saved to your account.</p>
+                    <h4 class="">Languages:</h4>
+                    <ul class="list-unstyled">
+                        <li class="d-inline pe-2 text-white">Javascript</li>
+
+                    </ul>
+                    <h4 class="">Skills:</h4>
+                    <ul class="list-unstyled">
+                        <li class="d-inline pe-2 text-white">React</li>
+                    </ul>
+                    <h4 class="mb-3">Demo Link:</h4>
+                    <a href="https://github.com/yongjinkai/SpotifyJammingApp" target="_blank"
+                        class="btn btn-dark me-1"><i class="bi bi-box-arrow-up-right"></i>&hairsp;GitHub</a>
+                    <a href="https://jinkai.surge.sh/" target="_blank" class="btn btn-dark me-1"><i
+                            class="bi bi-box-arrow-up-right"></i>&hairsp;Visit Website</a>
+                </section>
+            </div>
+            <div class="row mt-3 mb-4">
+                <h2 class="py-3 text-info console-font">Capstone Project</h2>
+                <section class="col-12 col-md-6 col-lg-4 border-right">
+                    <img src="img/rebound_app.gif" alt="" class="w-100 mb-3">
+                </section>
+                <section class="col-12 col-md-6 col-lg-8">
+                    <h3 class="">Description:</h3>
+                    <p class="text-justify text-white">Our project aims to provide at-home patient care services by
+                        linking up nurses and patient through our app. Patients can register through our app, and the
+                        administrator can edit patient subscription and medical info, as well as assign a nurse to
+                        different patients. This project is the culmination of hardwork of our team members to create a
+                        functional website, employing both frontend and backend skills learnt throughout the course.</p>
+                    <h4 class="">Languages:</h4>
+                    <ul class="list-unstyled">
+                        <li class="d-inline pe-2 text-white">HTML, CSS, Javascript</li>
+                        <li class="d-inline pe-2 text-white">Java</li>
+                    </ul>
+                    <h4 class="">Skills:</h4>
+                    <ul class="list-unstyled">
+                        <li class="d-inline pe-2 text-white">Bootstrap</li>
+                        <li class="d-inline pe-2 text-white">Springboot</li>
+                        <li class="d-inline pe-2 text-white">JUnit, Mockito</li>
+                    </ul>
+                    <h4 class="mb-3">Demo Link:</h4>
+                    <a href="https://github.com/yongjinkai/CapstoneProjectFE" target="_blank"
+                        class="btn btn-dark me-1"><i class="bi bi-box-arrow-up-right"></i>&hairsp;GitHub(FE)</a>
+                    <a href="https://github.com/yongjinkai/CapstoneProjectBE" target="_blank"
+                        class="btn btn-dark me-1"><i class="bi bi-box-arrow-up-right"></i>&hairsp;GitHub(BE)</a>
+                </section>
+            </div>
+            <hr class="border-1 border-top border-white">
+        </div>
+    </section>
+    <!-- End of Project Section -->
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+
+        var options = {
+            strings: ['I&apos;m Jin Kai', 'Thanks for visiting!'],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true
+        };
+        var typed = new Typed('.typing', options);
+
+    </script>
+</body>
+
+</html>

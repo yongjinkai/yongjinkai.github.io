@@ -73,13 +73,10 @@ nav ul li:hover a {
 @media (max-width: 768px){
   #mainsection {
     display: flex;
-    /* grid-template-columns: 1fr 2fr; */
-    /* column-gap: 20px; */
+    flex-direction: column;
     margin: auto;
     width: 80%;
-    min-height: 100dvh;
     border-bottom: 1px solid rgb(0, 255, 255, 0.5);
-    /* margin-bottom: 10px; */
     overflow: auto;
   }
 }

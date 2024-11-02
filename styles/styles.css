@@ -66,9 +66,9 @@ nav ul li:hover a {
   margin: auto;
   width: 80%;
   min-height: 100dvh;
-  border-bottom: 1px solid rgb(0, 255, 255, 0.5);
+  border-bottom: 1px solid lightgrey;
   margin-bottom: 10px;
-  overflow: auto;
+  /* overflow: auto; */
 }
 @media (max-width: 768px){
   #mainsection {
@@ -76,9 +76,9 @@ nav ul li:hover a {
     flex-direction: column;
     margin: auto;
     width: 80%;
-    border-bottom: 1px solid rgb(0, 255, 255, 0.5);
+    border-bottom: 1px solid lightgrey;
     padding-bottom: 10px;
-    overflow: auto;
+    /* overflow: auto; */
   }
 }
 
@@ -87,11 +87,18 @@ nav ul li:hover a {
 .right-div {
   flex: 1;
   max-height: 100%;
-  overflow: auto;
+  /* overflow: auto; */
   /* display: flex;
   flex-direction: column; */
   /* justify-content: center; */
   /* align-items: normal; */
+}
+.right-div p, .right-div li{
+  color: grey !important ;
+}
+
+details[open] > summary{
+  display: none;
 }
 
 /* set the profilecontainer */

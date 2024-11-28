@@ -13,12 +13,13 @@
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-2TC5PQYPXB"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'G-2TC5PQYPXB');
+    gtag('config', 'G-2TC5PQYPXB');
 </script>
+
 <body>
     <!-- Start of Main Section -->
     <div id="mainsection" class="mt-5">
@@ -136,6 +137,31 @@
 
         <div id="works" class="text-secondary pt-3">
             <div class="row mt-3 mb-4">
+                <h2 class="py-3 text-info console-font">Audio Transcription App</h2>
+                <section class="col-12 col-md-6 col-lg-4 ">
+                    <img src="img/transcription_app.gif" alt="parsing program animation" class="w-100 mb-3">
+                </section>
+                <section class="col-12 col-md-6 col-lg-8">
+                    <h3 class="">Description:</h3>
+                    <p class="text-justify text-white">An app that allows you to upload single/batched audio files, and
+                        gets back an English transcription. It makes API calls to the whisper-tiny model by hugging face
+                        to generate the transcriptions. The app is built using React for the frontend and Python FastAPI
+                        for the backend.</p>
+                    <h4 class="">Languages and tools:</h4>
+                    <ul class="list-unstyled">
+                        <li class="d-inline pe-2 text-white">Python</li>
+                        <li class="d-inline pe-2 text-white">FastAPI</li>
+                        <li class="d-inline pe-2 text-white">Docker</li>
+                        <li class="d-inline pe-2 text-white">JavaScript</li>
+                        <li class="d-inline pe-2 text-white">React.js</li>
+                    </ul>
+
+                    <h4 class="mb-3">Demo Link:</h4>
+                    <a href="https://github.com/yongjinkai/Transcription-Service.git" target="_blank"
+                        class="btn btn-dark me-1"><i class="bi bi-box-arrow-up-right"></i>&hairsp;GitHub</a>
+                </section>
+            </div>
+            <div class="row mt-3 mb-4">
                 <h2 class="py-3 text-info console-font">Data Parsing Program</h2>
                 <section class="col-12 col-md-6 col-lg-4 ">
                     <img src="img/parsing_program.gif" alt="parsing program animation" class="w-100 mb-3">
@@ -155,8 +181,8 @@
                     </ul>
 
                     <h4 class="mb-3">Demo Link:</h4>
-                    <a href="https://github.com/yongjinkai/Parsing-Program.git" target="_blank" class="btn btn-dark me-1"><i
-                            class="bi bi-box-arrow-up-right"></i>&hairsp;GitHub</a>
+                    <a href="https://github.com/yongjinkai/Parsing-Program.git" target="_blank"
+                        class="btn btn-dark me-1"><i class="bi bi-box-arrow-up-right"></i>&hairsp;GitHub</a>
                 </section>
             </div>
             <div class="row mt-3 mb-4">
